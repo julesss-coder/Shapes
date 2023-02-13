@@ -1,8 +1,8 @@
 abstract public class Shape {
-    String color;
-    Boolean isFilled;
+    private String color;
+    private Boolean isFilled;
 
-    Shape(String color, Boolean isFilled) {
+    public Shape(String color, Boolean isFilled) {
         this.color = color;
         this.isFilled = isFilled;
     }
