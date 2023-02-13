@@ -1,6 +1,6 @@
 public class Rectangle extends Shape {
-    double width;
-    double length;
+    private double width;
+    private double length;
 
     public Rectangle(String color, Boolean isFilled, double width, double length) {
         super(color, isFilled);
